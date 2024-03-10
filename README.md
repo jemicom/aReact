@@ -1,3 +1,75 @@
+# nodejs 프로젝트 작업하려면
+
+일일이 여러분들이 모두 작업
+src : 노드의 views: \*.html, public:script, css 폴더
+jQuery같은 라이브러리
+파일명.js $('div')
+
+# 리엑트 파일
+
+src : _.js, _.jsx(JavaScript Xml)
+클래스형 컴포넌트 => 함수형 컴포넌트
+
+# 함수
+
+```
+function hello(파라미터) {
+  return "hello"
+}
+```
+
+# 컴포넌트(함수)
+
+자주 사용되는 html 페이지를 부품화 한것
+
+# HMR 시스템
+
+자동으로 갱신시스템( LIVE SERVER, NODEMON )
+컴포넌트 => App.jsx 배치 => index.js => index.html
+
+# MPA(정적, static) & SPA(동적, dynamin)
+
+// nodejs 동적으로 페이지를 제작(pug, ejs추가 사용하면)
+
+# MPA(정적, static)
+
+index.html
+subpage1.html
+subpage2.html
+subpage3.html
+subpage4.html
+
+# SPA(동적, dynamin)
+
+컴포넌트를 조립 => index.html
+컴포넌트1,
+컴포넌트2,
+컴포넌트3,
+컴포넌트4,
+
+# 컴포넌트 만드는 규칙
+
+1. 파일명 첫글자는 대문자 : 태그 소문자이고 리엑트의 컴포넌트는 대문자
+2. 확장자는 .js 또는 .jsx
+3. return은 반드시 한개만 리턴
+4. 사용할때는 단일태그처럼 사용한다 <컴포넌트 />
+5. javascript 코드는 {} 안에 쓰기
+6. html의 class와 리엑트 컴포넌트를 구분하기 위해 className으로 사용함
+
+# React 데이터
+
+- props : 상위 컴포넌트에서 하위컴포넌트로 전달하는 값
+- state : 상태를 관리자, 현재 컴포넌트에서 상태를 관리할때
+  - state 바뀌면 화면갱신(UI 리로드), useEffect hook(함수)
+- context : 전체 컴포넌트 공유하고 싶은 데이터를 최상위 컴포넌트에서 지정
+
+# extention : react snippets(단축코드)
+
+- rfc
+- rfce
+- rafc
+- rafce
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

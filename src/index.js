@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// const app = require("./app");
+// 기본사용하는 common.js 모듈
+
+// ES 모듈
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
